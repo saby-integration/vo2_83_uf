@@ -71,6 +71,7 @@ BODY {
 <tr><td id=АккордеонЗадачи18 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Задачи</td></tr>
 <tr><td id=АккордеонПродажа53 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Продажа</td></tr>
 <tr><td id=АккордеонПокупка54 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Покупка</td></tr>
+<tr><td id=АккордеонОтчетность59 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Отчетность</td></tr>
 <tr><td id=АккордеонСправочники56 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Справочники</td></tr>
 <tr><td style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_down></td></tr>
 

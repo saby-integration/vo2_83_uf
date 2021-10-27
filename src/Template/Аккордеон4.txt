@@ -68,6 +68,7 @@ BODY {
 <tr><td id=АккордеонУчет47 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Учет</td></tr>
 <tr><td id=АккордеонЗадачи18 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Задачи</td></tr>
 <tr><td id=АккордеонПродажа43 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Продажа</td></tr>
+<tr><td id=АккордеонОтчетность49 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Отчетность</td></tr>
 <tr><td id=АккордеонСправочники46 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Справочники</td></tr>
 <tr><td id=АккордеонНастройки45 style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_passive>Настройки</td></tr>
 <tr><td style ="background-image: url('1.png'); background-repeat:no-repeat;" class=group_down></td></tr>
