@@ -127,7 +127,7 @@
 	
 	ФайлНоменклатурыПоставщика = Новый Файл(ИмяКаталогаНоменклатурыПоставщика + "NomPost.dbf");
 	Если ФайлНоменклатурыПоставщика.Существует() = Ложь Тогда
-		БД.Execute("Create Table NomPost.dbf (NAME char(240), ID char(240), IDNOM char(240), SPRNOM char(240), IDCHAR char(240), SPRCHAR char(240), GTIN char(240))");
+		БД.Execute("Create Table NomPost.dbf (NAME char(240), ID char(240), IDNOM char(240), SPRNOM char(240), IDCHAR char(240), SPRCHAR char(240), GTIN char(240), IDUNITPOST char(240),IDUNITORG char(240), RATIO char(240))");
 	КонецЕсли;
 	
 	NAME = "";
@@ -162,6 +162,15 @@
 			Если ЗначениеЗаполнено(RecordSet.Fields("IDCHAR").value) и ЗначениеЗаполнено(RecordSet.Fields("SPRCHAR").value) Тогда
 				Результат.Характеристика = Справочники[СокрЛП(RecordSet.Fields("SPRCHAR").value)].ПолучитьСсылку(Новый УникальныйИдентификатор(СокрЛП(RecordSet.Fields("IDCHAR").value)));	
 			КонецЕсли;
+			Если ЗначениеЗаполнено(RecordSet.Fields("IDUNITPOST").value) Тогда
+				Результат.ЕдИзмОрг = RecordSet.Fields("IDUNITPOST").value;	
+			КонецЕсли;
+			Если ЗначениеЗаполнено(RecordSet.Fields("IDUNITORG").value) Тогда
+				Результат.ЕдИзмОрг = Справочники["КлассификаторЕдиницИзмерения"].НайтиПоНаименованию(RecordSet.Fields("IDUNITORG").value);	
+			КонецЕсли;
+			Если ЗначениеЗаполнено(RecordSet.Fields("RATIO").value) Тогда
+				Результат.Коэффициент = RecordSet.Fields("RATIO").value;	
+			КонецЕсли;
 			Возврат Результат;
 		Иначе
 			Возврат Неопределено;
@@ -181,6 +190,15 @@
 					Результат.Номенклатура = Справочники[СокрЛП(RecordSet.Fields("SPRNOM").value)].ПолучитьСсылку(Новый УникальныйИдентификатор(СокрЛП(RecordSet.Fields("IDNOM").value)));	
 					Если ЗначениеЗаполнено(RecordSet.Fields("IDCHAR").value) и ЗначениеЗаполнено(RecordSet.Fields("SPRCHAR").value) Тогда
 						Результат.Характеристика = Справочники[СокрЛП(RecordSet.Fields("SPRCHAR").value)].ПолучитьСсылку(Новый УникальныйИдентификатор(СокрЛП(RecordSet.Fields("IDCHAR").value)));	
+					КонецЕсли;
+					Если ЗначениеЗаполнено(RecordSet.Fields("IDUNITPOST").value) Тогда
+						Результат.ЕдИзмОрг = RecordSet.Fields("IDUNITPOST").value;	
+					КонецЕсли;
+					Если ЗначениеЗаполнено(RecordSet.Fields("IDUNITORG").value) Тогда
+						Результат.ЕдИзмОрг = Справочники["КлассификаторЕдиницИзмерения"].НайтиПоНаименованию(RecordSet.Fields("IDUNITORG").value);	
+					КонецЕсли;
+					Если ЗначениеЗаполнено(RecordSet.Fields("RATIO").value) Тогда
+						Результат.Коэффициент = RecordSet.Fields("RATIO").value;	
 					КонецЕсли;
 				КонецЕсли;		
 				RecordSet.Fields("ID").value=ID; 
@@ -259,6 +277,24 @@
 		Если стрНоменклатураПоставщика.Свойство("GTIN") Тогда  
 			Попытка
 				RecordSet.Fields("GTIN").value = СокрЛП(стрНоменклатураПоставщика.GTIN);
+			Исключение
+			КонецПопытки;
+		КонецЕсли;
+		Если стрНоменклатураПоставщика.Свойство("IDUNITPOST") Тогда  
+			Попытка
+				RecordSet.Fields("IDUNITPOST").value = СокрЛП(стрНоменклатураПоставщика.IDUNITPOST);
+			Исключение
+			КонецПопытки;
+		КонецЕсли;
+		Если стрНоменклатураПоставщика.Свойство("IDUNITORG") Тогда  
+			Попытка
+				RecordSet.Fields("IDUNITORG").value = СокрЛП(стрНоменклатураПоставщика.IDUNITORG);
+			Исключение
+			КонецПопытки;
+		КонецЕсли;
+		Если стрНоменклатураПоставщика.Свойство("RATIO") Тогда  
+			Попытка
+				RecordSet.Fields("RATIO").value = СокрЛП(стрНоменклатураПоставщика.RATIO);
 			Исключение
 			КонецПопытки;
 		КонецЕсли;
@@ -356,7 +392,7 @@
 	ПереместитьФайл(ФайлНомПост.ПолноеИмя, СтрЗаменить(ФайлНомПост.ПолноеИмя,"NomPost","NPOld")); 
 	// Заполним новые файлы   
 	Попытка     
-		БД.Execute("Create Table NomPost.dbf (NAME char(240), ID char(240), IDNOM char(240), SPRNOM char(240), IDCHAR char(240), SPRCHAR char(240), GTIN char(240))");
+		БД.Execute("Create Table NomPost.dbf (NAME char(240), ID char(240), IDNOM char(240), SPRNOM char(240), IDCHAR char(240), SPRCHAR char(240), GTIN char(240), IDUNITORG char(240), RATIO char(240))");
 		БД.Execute("INSERT INTO NomPost(NAME, ID, IDNOM, SPRNOM, IDCHAR, SPRCHAR) SELECT NAME, ID, IDNOM, SPRNOM, IDCHAR, SPRCHAR FROM NPOld");
 	Исключение
 		Ошибка = ОписаниеОшибки();      
