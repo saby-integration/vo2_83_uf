@@ -1,0 +1,931 @@
+{
+  "Области include": {
+    "core_base_ДлительныеОперации": "core_base_ДлительныеОперации_ОбработкаУФ",
+  "core_base_ДлительныеОперации_ПодготовкаФормыОсобенностиПродукта": "core_base_ДлительныеОперации_ПодготовкаФормыОсобенностиПродуктаОбработка",
+    "core_base_ОсобенностиПлатформы_МодульФормы": "core_base_ОсобенностиПлатформы_МодульФормыУФ",
+    "core_base_ОсобенностиПлатформы_МодульОбъекта": "core_base_ОсобенностиПлатформы_МодульОбъектаУФ",
+    "core_base_ОсобенностиПлатформы_РаботаСоСтроками": "core_base_ОсобенностиПлатформы_РаботаСоСтрокамиОФ",
+    "core_base_ОсобенностиПлатформы_РаботаСЭлементамиФормы": "core_base_ОсобенностиПлатформы_РаботаСЭлементамиУФ",
+    "core_base_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсии": "core_base_ПроверкаВерсии_ПолучитьИмяФайлаИНомерТекущейВерсииОбработка",
+  "core_base_ПроверкаВерсии_НаФормеОсобенностиПродукта": "core_base_ПроверкаВерсии_НаФормеОсобенностиОбработки",
+    "core_base_АвтоматическиеОперации_МодульОбработки": "core_base_АвтоматическиеОперации_МодульОбработки",
+    "core_base_АвтоматическиеОперации_РегламентнаяОперация": "core_base_АвтоматическиеОперации_РегламентнаяОперацияУФ",
+    "core_base_СтатусыДокументов_ОсобенностиПродукта": "core_base_СтатусыДокументов_ОсобенностиПродуктаВнешняяОбработка",
+    "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиПродукта": "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиПродуктаВнешняяОбработка",
+    "core_base_ЭДО_Form_ВыполнитьДействие_ОсобенностиПродукта": "core_base_ЭДО_Form_ВыполнитьДействие_ОсобенностиПродуктаВнешняяОбработка",
+    "core_base_Helpers_СоздатьДополнительноеСвойствоКЭДО": "core_base_Helpers_СоздатьДополнительноеСвойствоКЭДОУФ",
+  "core_base_ДлительныеОперации_Form_ДлительнаяОперация_ОсобенностиОбработки": "core_base_ДлительныеОперации_Form_ДлительнаяОперация_ОсобенностиОбработкиУФ",
+  "core_base_ЭДО_Form_ВыполнитьДействие_ОсобенностиОбработки": "core_base_ЭДО_Form_ВыполнитьДействие_ОсобенностиОбработкиУФ",
+  "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиОбработки": "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиОбработкиУФ",
+  "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиПродуктаЗапуститьINI": "core_base_ЭДО_Form_ЗагрузкаДокументов_ОсобенностиПродуктаВнешняяОбработкаЗапуститьINI",
+    "core_base_Авторизация_Form_Вход_ОписаниеОповещенияОбработкиРезультатаАвторизации": "core_base_Авторизация_Form_Вход_ОписаниеОповещенияОбработкиРезультатаАвторизацииУФ",
+  "core_base_ФоновыеЗадания_МодульФоновогоЗаданияКлиент": "core_base_ФоновыеЗадания_МодульФоновогоЗаданияКлиентУФ",
+  "core_base_ФоновыеЗадания_МодульФоновогоЗаданияСервер": "core_base_ФоновыеЗадания_МодульФоновогоЗаданияСерверУФ",
+  "core_base_ФоновыеЗадания_МодульФоновогоЗаданияСерверСКлиента": "core_base_ФоновыеЗадания_МодульФоновогоЗаданияСерверСКлиентаУФ"
+  },
+  "ExternalDataProcessor.data803.json": "",
+  "ExternalDataProcessor.json": "",
+  "ExternalDataProcessor.obj.bsl": "local\\МодульОбъекта.obj.bsl",
+  "Form": {
+    "API": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\API\\API.obj.bsl",
+      "Form.props803.json": "src\\Form\\API\\Form.props803.json"
+    },
+    "ExtCom1C": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ExtCom1C.obj.bsl",
+      "Form.props803.json": "src\\Form\\ExtCom1C\\Form.props803.json"
+    },
+    "ExtSDK": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ExtSDK.obj.bsl",
+      "Form.props803.json": "src\\Form\\ExtSDK\\Form.props803.json"
+    },
+    "ExtSDK2": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ExtSDK2.obj.bsl",
+      "Form.props803.json": "src\\Form\\ExtSDK2\\Form.props803.json"
+    },
+    "ExtSDK2Crypto": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ExtSDK2Crypto.obj.bsl",
+      "Form.props803.json": "src\\Form\\ExtSDK2Crypto\\Form.props803.json"
+    },
+    "ExtSDKCrypto": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ExtSDKCrypto.obj.bsl",
+      "Form.props803.json": "src\\Form\\ExtSDKCrypto\\Form.props803.json"
+    },
+    "SDK2": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\SDK2.obj.bsl",
+      "Form.props803.json": "src\\Form\\SDK2\\Form.props803.json"
+    },
+    "SDK2Шифрование": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\SDK2Шифрование.obj.bsl",
+      "Form.props803.json": "src\\Form\\SDK2Шифрование\\Form.props803.json"
+    },
+    "ВнешнийИнтерфейс": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\API\\ВнешнийИнтерфейс.obj.bsl",
+      "Form.props803.json": "src\\Form\\ВнешнийИнтерфейс\\Form.props803.json"
+    },
+    "Документ_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Документ\\Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Документ_Шаблон\\Form.props803.json"
+    },
+    "Документ_ОказаниеУслуг": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Документ\\ОказаниеУслуг.obj.bsl",
+      "Form.props803.json": "src\\Form\\Документ_ОказаниеУслуг\\Form.props803.json"
+    },
+    "Документ_ОтчетКомитентуОПродажах": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Документ\\ОтчетКомитентуОПродажах.obj.bsl",
+      "Form.props803.json": "src\\Form\\Документ_ОтчетКомитентуОПродажах\\Form.props803.json"
+    },
+    "Документ_РеализацияУслуги": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Документ\\РеализацияУслуги.obj.bsl",
+      "Form.props803.json": "src\\Form\\Документ_РеализацияУслуги\\Form.props803.json"
+    },
+    "Документ_СчетФактураПолученный": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Документ\\СчетФактураПолученный.obj.bsl",
+      "Form.props803.json": "src\\Form\\Документ_СчетФактураПолученный\\Form.props803.json"
+    },
+    "ИнтеграцияКаталог": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СпособыОбмена\\ИнтеграцияКаталог.obj.bsl",
+      "Form.props803.json": "src\\Form\\ИнтеграцияКаталог\\Form.props803.json"
+    },
+    "МассоваяРассылка": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\МассоваяРассылка.obj.bsl",
+      "Form.commands803.json": "src\\Form\\МассоваяРассылка\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\МассоваяРассылка\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\МассоваяРассылка\\Form.props803.json"
+    },
+    "РаботаСДокументами1С": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\РаботаСДокументами1С.obj.bsl",
+      "Form.props803.json": "src\\Form\\РаботаСДокументами1С\\Form.props803.json"
+    },
+    "Раздел_Задачи_Задачи": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Задачи_Задачи\\Form.props803.json"
+    },
+    "Раздел_Задачи_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Задачи\\Раздел_Задачи_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Задачи_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Настройки_Настройки": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Настройки_Настройки\\Form.props803.json"
+    },
+    "Раздел_Настройки_Сервис": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Настройки_Сервис\\Form.props803.json"
+    },
+    "Раздел_Настройки_ФайлыНастроек": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Настройки_ФайлыНастроек\\Form.props803.json"
+    },
+    "Раздел_Отправленные_ДокОтгрИсх": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_ДокОтгрИсх\\Form.props803.json"
+    },
+    "Раздел_Отправленные_ОтветыКонтрагентов": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_ОтветыКонтрагентов\\Form.props803.json"
+    },
+    "Раздел_Отправленные_Отправленные": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Отправленные\\Раздел_Отправленные_Отправленные.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_Отправленные\\Form.props803.json"
+    },
+    "Раздел_Отправленные_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Отправленные_ЭТрН": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Отправленные\\Раздел_Отправленные_ЭТрН.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_ЭТрН\\Form.props803.json"
+    },
+	 "Раздел_Отправленные_ЗаказИсх": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Отправленные\\Раздел_Отправленные_ЗаказИсх.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Отправленные_ЗаказИсх\\Form.props803.json"
+    },
+    "Раздел_Отчетность_Отчетность": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Отчетность\\Раздел_Отчетность_Отчетность.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Отчетность_Отчетность\\Form.props803.json"
+    },
+    "Раздел_Отчетность_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Отчетность\\Раздел_Отчетность_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Отчетность_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Покупка_Покупка": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Покупка\\Раздел_Покупка_Покупка.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Покупка_Покупка\\Form.props803.json"
+    },
+    "Раздел_Покупка_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Покупка\\Раздел_Покупка_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Покупка_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Полученные_ДокОтгрВх": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Полученные_ДокОтгрВх\\Form.props803.json"
+    },
+    "Раздел_Полученные_ЗаказВх": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Полученные_ЗаказВх\\Form.props803.json"
+    },
+    "Раздел_Полученные_Полученные": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Полученные\\Раздел_Полученные_Полученные.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Полученные_Полученные\\Form.props803.json"
+    },
+    "Раздел_Полученные_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Полученные\\Раздел_Полученные_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Полученные_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Полученные_ЭТрН": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Полученные\\Раздел_Полученные_ЭТрН.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Полученные_ЭТрН\\Form.props803.json"
+    },
+    "Раздел_Продажа_Продажа": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Продажа\\Раздел_Продажа_Продажа.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Продажа_Продажа\\Form.props803.json"
+    },
+    "Раздел_Продажа_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Продажа\\Раздел_Продажа_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Продажа_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Справочники_Номенклатура": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Справочники_Номенклатура\\Form.props803.json"
+    },
+    "Раздел_Справочники_Справочники": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Справочники_Справочники\\Form.props803.json"
+    },
+    "Раздел_Справочники_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Справочники_Шаблон\\Form.props803.json"
+    },
+    "Раздел_Учет_Учет": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Учет_Учет\\Form.props803.json"
+    },
+    "Раздел_Учет_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Раздел_Учет_Шаблон\\Form.props803.json"
+    },
+    "СопоставлениеНоменклатуры_ДБФ": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СопоставлениеНоменклатуры\\СопоставлениеНоменклатуры_ДБФ.obj.bsl",
+      "Form.props803.json": "src\\Form\\СопоставлениеНоменклатуры_ДБФ\\Form.props803.json"
+    },
+    "СопоставлениеНоменклатуры_Регистры": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СопоставлениеНоменклатуры\\СопоставлениеНоменклатуры_Регистры.obj.bsl",
+      "Form.props803.json": "src\\Form\\СопоставлениеНоменклатуры_Регистры\\Form.props803.json"
+    },
+    "СопоставлениеНоменклатуры_Справочники": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СопоставлениеНоменклатуры\\СопоставлениеНоменклатуры_Справочники.obj.bsl",
+      "Form.props803.json": "src\\Form\\СопоставлениеНоменклатуры_Справочники\\Form.props803.json"
+    },
+    "СопоставлениеНоменклатуры_СуммовойУчет": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СопоставлениеНоменклатуры\\СопоставлениеНоменклатуры_СуммовойУчет.obj.bsl",
+      "Form.props803.json": "src\\Form\\СопоставлениеНоменклатуры_СуммовойУчет\\Form.props803.json"
+    },
+    "СопоставлениеНоменклатуры_СБИС": {
+      "Form.form803.json": "src\\Form\\СопоставлениеНоменклатуры_СБИС\\Form.form803.json",
+      "Form.json": "src\\Form\\СопоставлениеНоменклатуры_СБИС\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\СопоставлениеНоменклатуры\\СопоставлениеНоменклатуры_СБИС.obj.bsl",
+      "Form.props803.json": "src\\Form\\СопоставлениеНоменклатуры_СБИС\\Form.props803.json"
+    },
+    "Статусы_ДБФ_УФ": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_ДБФ_УФ.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_ДБФ_УФ\\Form.props803.json"
+    },
+    "Статусы_Регистры": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_Регистры.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_Регистры\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_3": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_3.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_3\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_5": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_5.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_5\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_6": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_6.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_6\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_6_2": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_6_2.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_6_2\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_6_3": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_6_3.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_6_3\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_6_4": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_6_4.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_6_4\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_9": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\СтатусыЭДО\\Статусы_СостоянияЭД_1_9.obj.bsl",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_9\\Form.props803.json"
+    },
+    "Статусы_СостоянияЭД_1_9_3": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\Статусы_СостоянияЭД_1_9_3\\Form.props803.json"
+    },
+    "Файл_АктВР_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_АктВР_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_АктВР_3_01\\Form.props803.json"
+    },
+    "Файл_АктРасхождение_3_03": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_АктРасхождение_3_03.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_АктРасхождение_3_03\\Form.props803.json"
+    },
+    "Файл_АктСвер_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_АктСвер_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_АктСвер_3_01\\Form.props803.json"
+    },
+    "Файл_АктСверПолуч_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_АктСверПолуч_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_АктСверПолуч_3_01\\Form.props803.json"
+    },
+    "Файл_Заказ_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Заказ_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Заказ_3_01\\Form.props803.json"
+    },
+    "Файл_ВнутрДокумент_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ВнутрДокумент_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ВнутрДокумент_3_01\\Form.props803.json"
+    },
+    "Файл_Конверт_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Конверт_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Конверт_3_01\\Form.props803.json"
+    },
+    "Файл_ОтчКмт_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ОтчКмт_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ОтчКмт_3_01\\Form.props803.json"
+    },
+    "Файл_ПриходныйОрдер_3_03": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ПриходныйОрдер_3_03.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ПриходныйОрдер_3_03\\Form.props803.json"
+    },
+    "Файл_РасходныйОрдер_3_03": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_РасходныйОрдер_3_03.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_РасходныйОрдер_3_03\\Form.props803.json"
+    },
+    "Файл_счФактКор_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_счФактКор_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_счФактКор_3_01\\Form.props803.json"
+    },
+    "Файл_СчФктр_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_СчФктр_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_СчФктр_3_01\\Form.props803.json"
+    },
+    "Файл_УведомлОтгр_3_03": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Файл_УведомлОтгр_3_03.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_УведомлОтгр_3_03\\Form.props803.json"
+    },
+    "Файл_ПодтверждениеЗаказа_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Файл_ПодтверждениеЗаказа_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ПодтверждениеЗаказа_3_01\\Form.props803.json"
+    },
+    "Файл_СогласованиеЦен_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Файл_СогласованиеЦен_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_СогласованиеЦен_3_01\\Form.props803.json"
+    },
+    "Файл_УкдДис_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Файл_УкдДис_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_УкдДис_3_01\\Form.props803.json"
+    },
+    "Файл_УкдКсчфДис_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Файл_УкдКсчфДис_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_УкдКсчфДис_3_01\\Form.props803.json"
+    },
+    "Файл_Шаблон": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Шаблон.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Шаблон\\Form.props803.json"
+    },
+    "Файл_Шаблон_3_03": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Шаблон_3_03.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Шаблон_3_03\\Form.props803.json"
+    },
+    "Файл_ЭДОНакл_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ЭДОНакл_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ЭДОНакл_3_01\\Form.props803.json"
+    },
+    "Файл_ЭДОСч_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ЭДОСч_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ЭДОНакл_3_01\\Form.props803.json"
+    },
+    "Файл_ЭДОУПД_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ЭДОУПД_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ЭДОУПД_3_01\\Form.props803.json"
+    },
+    "Файл_ТОРГ2_3_01": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ТОРГ2_3_01\\Form.obj.bsl",
+      "Form.props803.json": ""
+    },
+  "Файл_ПодтверждениеЗаказа_3_02": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_ПодтверждениеЗаказа_3_02.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_ПодтверждениеЗаказа_3_02\\Form.props803.json"
+    },
+  "Файл_Шаблон_3_04": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Шаблон_3_04.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Шаблон_3_04\\Form.props803.json"
+    },
+  "Файл_Шаблон_3_02": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_Шаблон_3_02.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_Шаблон_3_02\\Form.props803.json"
+    },
+    "ФайлыНастроекКаталог": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Настройки\\ФайлыНастроекКаталог.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФайлыНастроекКаталог\\Form.props803.json"
+    },
+    "ФайлыНастроекОбщее": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Настройки\\ФайлыНастроекОбщее.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФайлыНастроекОбщее\\Form.props803.json",
+      "Form.commands803.json": "src\\Form\\ФайлыНастроекОбщее\\Form.commands803.json"
+    },
+    "ФайлыНастроекСервер": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Настройки\\ФайлыНастроекСервер.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФайлыНастроекСервер\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФайлыНастроекСервер\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФайлыНастроекСервер\\Form.props803.json"
+    },
+    "ФормаHTML": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаHTML.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаHTML\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаHTML\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаHTML\\Form.props803.json"
+    },
+    "Форма_ВыборИзСписка": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Форма_ВыборИзСписка.obj.bsl",
+      "Form.elements803.json": "src\\Form\\Форма_ВыборИзСписка\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\Форма_ВыборИзСписка\\Form.props803.json"
+    },
+    "Форма_ВывестиСписок": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\Форма_ВывестиСписок.obj.bsl",
+      "Form.commands803.json": "src\\Form\\Форма_ВывестиСписок\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\Форма_ВывестиСписок\\Form.props803.json"
+    },
+    "ФормаАвторизация": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаАвторизация.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаАвторизация\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаАвторизация\\Form.props803.json"
+    },
+    "ФормаАдресаПоКЛАДР": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаАдресаПоКЛАДР.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаАдресаПоКЛАДР\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаАдресаПоКЛАДР\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаАдресаПоКЛАДР\\Form.props803.json"
+    },
+    "ФормаВариантЗагрузки": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаВариантЗагрузки.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаВариантЗагрузки\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаВариантЗагрузки\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаВариантЗагрузки\\Form.props803.json"
+    },
+    "ФормаВводаПинкода": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаВводаПинкода.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаВводаПинкода\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаВводаПинкода\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаВводаПинкода\\Form.props803.json"
+    },
+    "ФормаГлавноеОкно": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаГлавноеОкно.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаГлавноеОкно\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаГлавноеОкно\\Form.props803.json"
+    },
+    "ФормаДанныеАдминистратора": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаДанныеАдминистратора.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаДанныеАдминистратора\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаДанныеАдминистратора\\Form.props803.json"
+    },
+    "ФормаДлительныеОперации": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаДлительныеОперации.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаДлительныеОперации\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаДлительныеОперации\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаДлительныеОперации\\Form.props803.json"
+    },
+    "ФормаДопОперации": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаДопОперации.obj.bsl",
+      "Form.elements803.json": "src\\Form\\ФормаДопОперации\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаДопОперации\\Form.props803.json"
+    },
+    "ФормаНастройкаEDI": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.commands803.json": "src\\Form\\ФормаНастройкаEDI\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаНастройкаEDI\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаНастройкаEDI\\Form.props803.json"
+    },
+    "ФормаНовости": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаНовости.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаНовости\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаНовости\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаНовости\\Form.props803.json"
+    },
+    "ФормаОтправкиКорреспонденции": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаОтправкиКорреспонденции.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаОтправкиКорреспонденции\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаОтправкиКорреспонденции\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаОтправкиКорреспонденции\\Form.props803.json"
+    },
+    "ФормаПересылкаПакетов": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПересылкаПакетов.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаПересылкаПакетов\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаПересылкаПакетов\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаПересылкаПакетов\\Form.props803.json"
+    },
+    "ФормаПереходы": {
+      "Form.form803.json": "src\\Form\\ФормаПереходы\\Form.form803.json",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПереходы.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаПереходы\\Form.props803.json"
+    },
+    "ФормаПредупреждения": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПредупреждения.obj.bsl",
+      "Form.elements803.json": "src\\Form\\ФормаПредупреждения\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаПредупреждения\\Form.props803.json"
+    },
+    "ФормаПросмотрДокумента": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПросмотрДокумента.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаПросмотрДокумента\\Form.commands803.json",
+      "Form.params803.json": "src\\Form\\ФормаПросмотрДокумента\\Form.params803.json",
+      "Form.props803.json": "src\\Form\\ФормаПросмотрДокумента\\Form.props803.json"
+    },
+  "ФормаПросмотрДокументаРасширенноеСопоставление": {
+      "Form.commands803.json": "src\\Form\\ФормаПросмотрДокументаРасширенноеСопоставление\\Form.commands803.json",
+      "Form.form803.json": "src\\Form\\ФормаПросмотрДокументаРасширенноеСопоставление\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаПросмотрДокументаРасширенноеСопоставление\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПросмотрДокумента.obj.bsl",
+      "Form.params803.json": "src\\Form\\ФормаПросмотрДокументаРасширенноеСопоставление\\Form.params803.json",
+      "Form.props803.json": "src\\Form\\ФормаПросмотрДокументаРасширенноеСопоставление\\Form.props803.json"
+    },
+  "ФормаРучногоСопоставленияКонтрагентов": {
+      "Form.commands803.json": "src\\Form\\ФормаРучногоСопоставленияКонтрагентов\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаРучногоСопоставленияКонтрагентов\\Form.elements803.json",
+      "Form.form803.json": "src\\Form\\ФормаРучногоСопоставленияКонтрагентов\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаРучногоСопоставленияКонтрагентов\\Form.json",
+      "Form.obj.bsl": "core2\\Формы\\ФормаРучногоСопоставленияКонтрагентов\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаРучногоСопоставленияКонтрагентов\\Form.props803.json"
+    },
+    "ФормаПросмотрДокументов": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаПросмотрДокументов.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаПросмотрДокументов\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаПросмотрДокументов\\Form.props803.json"
+    },
+    "ФормаПроблемСопоставления": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.elements803.json": "src\\Form\\ФормаПроблемСопоставления\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаПроблемСопоставления\\Form.props803.json"
+    },
+    "ФормаРезультатОтправки": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаРезультатОтправки.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаРезультатОтправки\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаРезультатОтправки\\Form.props803.json"
+    },
+    "ФормаРезультатыСопоставления": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаРезультатыСопоставления.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаРезультатыСопоставления\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаРезультатыСопоставления\\Form.props803.json"
+    },
+    "ФормаСозданияКонтрагента": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаСозданияКонтрагента.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаСозданияКонтрагента\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаСозданияКонтрагента\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаСозданияКонтрагента\\Form.props803.json"
+    },
+    "ФормаСопоставитьСДокументами1С": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаСопоставитьСДокументами1С.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаСопоставитьСДокументами1С\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаСопоставитьСДокументами1С\\Form.props803.json"
+    },
+    "ФормаСопоставитьСДокументом1С": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаСопоставитьСДокументом1С.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаСопоставитьСДокументом1С\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаСопоставитьСДокументом1С\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаСопоставитьСДокументом1С\\Form.props803.json"
+    },
+    "ФормаУстановкиФильтра": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаУстановкиФильтра.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаУстановкиФильтра\\Form.commands803.json",
+      "Form.props803.json": "src\\Form\\ФормаУстановкиФильтра\\Form.props803.json"
+    },
+    "ФормаНастройкиПодписания": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаНастройкиПодписания\\Form.obj.bsl",
+      "Form.commands803.json": "src\\Form\\ФормаНастройкиПодписания\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаНастройкиПодписания\\Form.elements803.json",
+      "Form.props803.json": "src\\Form\\ФормаНастройкиПодписания\\Form.props803.json"
+    },
+    "ЭлектроннаяПодписьНаКлиенте": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ЭлектроннаяПодписьНаКлиенте\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\ЭлектроннаяПодписьНаКлиенте\\Form.props803.json"
+    },
+    "ЭлектроннаяПодписьНаСервере": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ЭлектроннаяПодписьНаСервере\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\ЭлектроннаяПодписьНаСервере\\Form.props803.json"
+    },
+    "МодульОбъектаКлиент": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "",
+      "Form.props803.json": "src\\Form\\МодульОбъектаКлиент\\Form.props803.json"
+    },
+    "ФормаСменыАккаунта": {
+      "Form.form803.json": "",
+      "Form.json": "",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаСменыАккаунта.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаСменыАккаунта\\Form.props803.json"
+    },
+    "ФормаНастройки": {
+      "Form.commands803.json": "src\\Form\\ФормаНастройки\\Form.commands803.json",
+      "Form.form803.json": "src\\Form\\ФормаНастройки\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаНастройки\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Настройки\\ФормаНастройки.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаНастройки\\Form.props803.json"
+    },
+    "Файл_УпдДоп_3_01": {
+      "Form.form803.json": "src\\Form\\Файл_УпдДоп_3_01\\Form.form803.json",
+      "Form.json": "src\\Form\\Файл_УпдДоп_3_01\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_УпдДоп_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_УпдДоп_3_01\\Form.props803.json"
+    },
+    "SabyHttpsClient": {
+      "Form.form803.json": "src\\Form\\SabyHttpsClient\\Form.form803.json",
+      "Form.json": "src\\Form\\SabyHttpsClient\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\SabyHttpsClient\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\SabyHttpsClient\\Form.props803.json"
+    },
+    "SabyPluginConnector": {
+      "Form.form803.json": "src\\Form\\SabyPluginConnector\\Form.form803.json",
+      "Form.json": "src\\Form\\SabyPluginConnector\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\SabyPluginConnector\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\SabyPluginConnector\\Form.props803.json"
+    },
+    "Раздел_Справочники_КонтрагентыСБИС": {
+      "Form.form803.json": "src\\Form\\Раздел_Справочники_КонтрагентыСБИС\\Form.form803.json",
+      "Form.json": "src\\Form\\Раздел_Справочники_КонтрагентыСБИС\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Раздел\\Справочники\\Раздел_Справочники_КонтрагентыСБИС.obj.bsl",
+      "Form.props803.json": "src\\Form\\Раздел_Справочники_КонтрагентыСБИС\\Form.props803.json"
+    },
+    "Файл_УпдСчфДоп_3_01": {
+      "Form.form803.json": "src\\Form\\Файл_УпдСчфДоп_3_01\\Form.form803.json",
+      "Form.json": "src\\Form\\Файл_УпдСчфДоп_3_01\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Шаблоны\\Файл\\Файл_УпдСчфДоп_3_01.obj.bsl",
+      "Form.props803.json": "src\\Form\\Файл_УпдСчфДоп_3_01\\Form.props803.json"
+    },
+    "ФормаПереходыПодробнее_ДокОтгрВх": {
+      "Form.commands803.json": "src\\Form\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.commands803.json",
+      "Form.elements803.json": "src\\Form\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.elements803.json",
+      "Form.form803.json": "src\\Form\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаПереходыПодробнее_ДокОтгрВх\\Form.props803.json"
+    },
+    "ФормаИндикатора": {
+      "Form.commands803.json": "src\\Form\\ФормаИндикатора\\Form.commands803.json",
+      "Form.form803.json": "src\\Form\\ФормаИндикатора\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаИндикатора\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Интерфейс\\Form.obj.bsl",
+      "Form.props803.json": "src\\Form\\ФормаИндикатора\\Form.props803.json"
+    },
+  "ФормаОбратногоСопоставления": {
+      "Form.commands803.json": "src\\Form\\ФормаОбратногоСопоставления\\Form.commands803.json",
+      "Form.form803.json": "src\\Form\\ФормаОбратногоСопоставления\\Form.form803.json",
+      "Form.json": "src\\Form\\ФормаОбратногоСопоставления\\Form.json",
+      "Form.obj.bsl": "core2\\vo2\\Формы\\ФормаОбратногоСопоставления.obj.bsl",
+      "Form.params803.json": "src\\Form\\ФормаОбратногоСопоставления\\Form.params803.json",
+      "Form.props803.json": "src\\Form\\ФормаОбратногоСопоставления\\Form.props803.json"
+    },
+    "Фильтр": {
+      "Form.json": "core\\base\\ГлавноеОкно\\Form\\Фильтр\\Form.json",
+      "Form.form803.json": "core\\base\\ГлавноеОкно\\Form\\Фильтр\\Form.form803.json",
+      "Form.obj.bsl": "core\\base\\ГлавноеОкно\\Form\\Фильтр\\Form.obj.bsl",
+      "Form.commands803.json": "core\\base\\ГлавноеОкно\\Form\\Фильтр\\Form.commands803.json",
+      "Form.props803.json": "core\\base\\ГлавноеОкно\\Form\\Фильтр\\Form.props803.json"
+    },
+    "Browser": {
+      "Form.json": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.json",
+      "Form.form803.json": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.form803.json",
+      "Form.obj.bsl": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.obj.bsl",
+      "Form.commands803.json": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.commands803.json",
+      "Form.params803.json": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.params803.json",
+      "Form.props803.json": "core\\base\\БазовыеКомпоненты\\Формы\\Browser\\Form.props803.json"
+    },
+    "ЗагрузкаДокументов": {
+      "Form.json": "core\\base\\ЭДО\\Form\\ЗагрузкаДокументов\\Form.json",
+      "Form.form803.json": "core\\base\\ЭДО\\Form\\ЗагрузкаДокументов\\Form.form803.json",
+      "Form.obj.bsl": "core\\base\\ЭДО\\Form\\ЗагрузкаДокументов\\Form.obj.bsl",
+      "Form.commands803.json": "core\\base\\ЭДО\\Form\\ЗагрузкаДокументов\\Form.commands803.json",
+      "Form.props803.json": "core\\base\\ЭДО\\Form\\ЗагрузкаДокументов\\Form.props803.json"
+    },
+    "ВыполнитьДействие": {
+      "Form.json": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.json",
+      "Form.form803.json": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.form803.json",
+      "Form.obj.bsl": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.obj.bsl",
+      "Form.commands803.json": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.commands803.json",
+      "Form.params803.json": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.params803.json",
+      "Form.props803.json": "core\\base\\ЭДО\\Form\\ВыполнитьДействие\\Form.props803.json"
+    },
+    "ДлительнаяОперация": {
+      "Form.json": "core\\base\\ДлительныеОперации\\Form\\ДлительнаяОперация\\Form.json",
+      "Form.form803.json": "core\\base\\ДлительныеОперации\\Form\\ДлительнаяОперация\\Form.form803.json",
+      "Form.obj.bsl": "core\\base\\ДлительныеОперации\\Form\\ДлительнаяОперация\\Form.obj.bsl",
+      "Form.params803.json": "core\\base\\ДлительныеОперации\\Form\\ДлительнаяОперация\\Form.params803.json",
+      "Form.props803.json": "core\\base\\ДлительныеОперации\\Form\\ДлительнаяОперация\\Form.props803.json"
+    },
+  "ДиалогВыбораИзСписка": {
+    "Form.json": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.json",
+    "Form.form803.json": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.form803.json",
+    "Form.obj.bsl": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.obj.bsl",
+    "Form.commands803.json": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.commands803.json",
+    "Form.params803.json": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.params803.json",
+    "Form.props803.json": "core\\base\\ГлавноеОкно\\Form\\ДиалогВыбораИзСписка\\Form.props803.json"
+  }
+  },
+  "Template": {
+    "МакетОшибки.json": "src\\Template\\МакетОшибки.json",
+  "МакетОшибки.mxl": "core2\\vo2\\Макеты\\МакетОшибки.mxl",
+    "Новости.json": "src\\Template\\Новости.json",
+    "Новости.html": "core2\\vo2\\Макеты\\Новости.html",
+    "ПротоколПроверкиИниФайлов.json": "src\\Template\\ПротоколПроверкиИниФайлов.json",
+    "ПротоколПроверкиИниФайлов.mxl": "core2\\vo2\\Макеты\\ПротоколПроверкиИниФайлов.mxl",
+    "Аккордеон83.json": "core2\\vo3\\Аккордеон\\Аккордеон83.json",
+    "Аккордеон83.txt": "core2\\vo3\\Аккордеон\\Аккордеон83.txt",
+    "Аккордеон82.json": "core2\\vo3\\Аккордеон\\Аккордеон82.json",
+    "Аккордеон82.txt": "core2\\vo3\\Аккордеон\\Аккордеон82.txt",
+    "СтруктураАккордеона.json": "src\\Template\\СтруктураАккордеона.json",
+    "СтруктураАккордеона.txt": "core2\\vo2\\Макеты\\СтруктураАккордеона.txt"
+  }
+  
+}
