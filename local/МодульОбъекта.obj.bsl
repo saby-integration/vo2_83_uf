@@ -1,0 +1,16 @@
+
+#Область include_BlocklyExecutor_base_Variables
+#КонецОбласти
+
+#Область include_BlocklyExecutor_base_VariableSABYHTTPClient
+#КонецОбласти
+
+#Область include_core2_vo2_Модуль_Обработчики_Загрузка
+#КонецОбласти
+
+#Область include_core2_vo2_Модуль_МодульОбъектаСервер
+#КонецОбласти
+
+#Область include_core2_vo2_Модуль_МодульОбъектаСервер_vo3
+#КонецОбласти
+
