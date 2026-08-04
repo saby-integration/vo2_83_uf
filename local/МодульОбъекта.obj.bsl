@@ -1,0 +1,27 @@
+
+#Область include_BlocklyExecutor_base_Variables
+#КонецОбласти
+
+#Область include_BlocklyExecutor_base_VariableSABYHTTPClient
+#КонецОбласти
+
+#Область include_core2_vo2_Модуль_Обработчики_Загрузка
+#КонецОбласти
+
+#Область include_core2_vo2_МодульОбъекта_Сервер
+#КонецОбласти
+
+#Область include_core2_vo2_МодульОбъекта_КлиентСервер //&НаСервере
+#КонецОбласти
+
+#Область include_core2_vo2_МодульОбъекта_Сервер_УправляемоеПриложение
+#КонецОбласти
+
+#Область include_core_base_ЭДО_РаботаСДокументами_МетодыФормыЗагрузкаДокумента
+#КонецОбласти
+
+#Область include_etrn_src_vo2_Module
+#КонецОбласти // include_etrn_src_vo2_Module
+
+#Область include_core2_vo2_Модуль_МодульОбъектаСервер_vo3
+#КонецОбласти
