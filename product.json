@@ -1,0 +1,15 @@
+{
+  "saby_vo2_83_uf": {
+      "src": "src",
+      "bin": "bin/Sbis1C_UF.epf",
+      "temp": "temp",
+      "index": "index.json",
+      "disable": false,
+      "options": {
+        "version": "80314",
+        "descent": null,
+        "gui": null,
+        "auto_include": true
+      }
+  }
+}
